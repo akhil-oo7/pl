@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+
+# Environment variables
+.env
+.env.local
+
+# Large model files
+models/
+!models/__init__.py
+
+# System files
+.DS_Store
+Thumbs.db
+dataset/
+videos/
+*.mp4
+*.avi
